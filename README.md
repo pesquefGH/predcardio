@@ -1,7 +1,7 @@
 # predcardio
 Repository of data and scripts (matlab) to reproduce the results of the paper "Prediction of the monthly number of cardiovascular hospital admissions in the Brazilian public- health system using PATV decomposition and SARIMA model"
 
-TITLE:\
+# TITLE
 "Prediction of the monthly number of cardiovascular hospital admissions in the Brazilian public- health system using PATV decomposition and SARIMA model"
 
 
@@ -28,27 +28,25 @@ mean relative error (MRE) between the median forecast and the actual number of H
 data from January 2012 to December 2025 to provide a mean forecast from January 2026 to December
 2027, with a respective 95% prediction interval.
 
-\
-DATA
 
-Raw or original time series (TS) of the monthly CVD-related procedures in SUS hospital admissions, from  January 2012 to December 2025. Sequence y_o(n) in the paper:
+# DATA
 
+Raw or original time series (TS) of the monthly CVD-related procedures in SUS hospital admissions, from  January 2012 to December 2025. Sequence y_o(n) in the paper: 
 
+[.csv file:](data/raw_time_series.csv)
 
-.csv file
+[.mat file:](data/raw_time_series.mat)
 
-.mat file (use 'save link as' to download)
-
-List of Hospital Admission (Procedure) Authorization Codes and associated descriptions (.xlsx file).
 
 Adjusted (per million inhabitants) time series of the monthly HA in SUS by CVD, from  January 2012 to December 2025. Sequence y(n) in the paper:
 
-.csv file
+[.csv file:](data/adjusted_time_series.csv)
 
-.mat file  (use 'save link as' to download)
+[.mat file:](data/adjusted_time_series.mat)
 
+[List of Hospital Admission (Procedure) Authorization Codes and associated descriptions (.xlsx file).](data/CVD_procedure_codes.xlsx)
 
-MATLAB SCRITPS TO REPRODUCE THE RESULTS REPORTED IN THE PAPER
+# MATLAB SCRITPS TO REPRODUCE THE RESULTS REPORTED IN THE PAPER
 
 
 Script to perform data adjustment from raw (absolute values) to  per million  inhabitants, considering a growth population model

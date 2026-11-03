@@ -8,7 +8,7 @@ Repository of data and scripts (matlab) to reproduce the results of the paper "P
 Authors: \
 Paulo A. A. Esquef\
 Paulo Cabral Filho\
-Cid M. de M. Vianna\
+Cid M. de M. Vianna
 
 Contact: Paulo Esquef:  pesquef at lncc.br 
 

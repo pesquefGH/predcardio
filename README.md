@@ -31,7 +31,7 @@ data from January 2012 to December 2025 to provide a mean forecast from January 
 
 # DATA
 
-[Download the whole package]()
+[Download the whole package](data/whole_package.zip)
 
 Raw or original time series (TS) of the monthly CVD-related procedures in SUS hospital admissions, from  January 2012 to December 2025. Sequence y_o(n) in the paper: 
 

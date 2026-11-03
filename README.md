@@ -48,35 +48,37 @@ Adjusted (per million inhabitants) time series of the monthly HA in SUS by CVD, 
 
 # MATLAB SCRITPS TO REPRODUCE THE RESULTS REPORTED IN THE PAPER
 
+## Time-series adjustment by population growth
+[Script to perform data adjustment from raw (absolute values) to  per million  inhabitants, considering a growth population model](scripts/generates_mat_csv_ajusted_time_series.m)
 
-Script to perform data adjustment from raw (absolute values) to  per million  inhabitants, considering a growth population model
-
-Reference Implementation of the proposed Predictor and related demonstration use (.zip: script and data)
+## Reference Implementation of the Predictor and Demonstration
+[Reference Implementation of the proposed Predictor and related demonstration use (.zip: script and data)](scripts/reference_implementation.zip)
      
-Performance Evaluation of the proposed Predictor:
+## Performance Evaluation of the proposed Predictor:
 
-Figures:
+###  Figures:
 
-Script to generate Figures 2 to 4 of the paper (forecast 2024 - 2025) (.zip: script and data)
+[Script to generate Figures 2 to 4 of the paper (forecast 2024 - 2025) (.zip: script and data)](scripts/generates_figures_2_to_4.zip)
 
-Script  to generate Figure 5 of the paper  (parameter sensitivity analysis - optimal prediction performance, from map MRE(lambda,p))
+[Script  to generate Figure 5 of the paper  (parameter sensitivity analysis - optimal prediction performance, from map MRE(lambda,p))](scripts/generates_figure_5.zip)
 
-Script in Matlab to generate Figure 6 of the paper (forecast 2026 - 2027)  (.zip: script and data)
+[Script in Matlab to generate Figure 6 of the paper (forecast 2026 - 2027)  (.zip: script and data)](scripts/generates_figure_6.zip)
 
-Script to generate the results shown in Table 2 of the paper  (.zip: script and data)
+### Tables:
 
-Script to generate the results shown in Table 3 of the paper (.zip: scritpt and data)
+[Script to generate the results shown in Table 2 of the paper  (.zip: script and data)](scripts/reproduces_results_Table_2.zip)
 
-Script to run the optimal MRE  performance comparsion between the proposed PATV+SARIMA and the competing SARIMA-only  predictors (.zip: script and data)
+[Script to generate the results shown in Table 3 of the paper (.zip: scritpt and data)](scripts/generates_results_table_3.zip)
 
-Estimate of the deficit in HA by CVD in the first 15 months of the COVID-19 pandemic
+### Other Results
 
-Script to generate the result reported in the paper  (.zip: script and data)
+[Script to run the optimal MRE  performance comparison between the proposed PATV+SARIMA and the competing SARIMA-only  predictors (.zip: script and data)](scripts/optimal_performance_comparison.zip)
+
+[Estimate of the deficit in HA by CVD in the first 15 months of the COVID-19 pandemic](scripts/drop_estimation_of_HA_by_CVD.zip)
 
 
 
 ANNEX
+[List of Hospital Admission (Procedure) Authorization Codes and associated descriptions (.xlsx file).](data/CVD_procedure_codes.xlsx)
 
-
-List of Hospital Admission (Main Procedure) Authorization Codes and  associated descriptions (.xlsx file).
 

@@ -2,7 +2,7 @@
 Repository of data and scripts (matlab) to reproduce the results of the paper "Prediction of the monthly number of cardiovascular hospital admissions in the Brazilian public- health system using PATV decomposition and SARIMA model"
 
 # TITLE
-"Prediction of the monthly number of cardiovascular hospital admissions in the Brazilian public- health system using PATV decomposition and SARIMA model"
+"Prediction of cardiovascular hospital admissions in the Brazilian public-health system using Polynomial Approximation Total Variation (PATV) decomposition and SARIMA model"
 
 
 Authors: \
